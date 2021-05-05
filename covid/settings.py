@@ -23,7 +23,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 't)@gw#l&x49b#%5uz)xmv=7_zs=^h4!25jm^opo+_n6#1$_f^^'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['infinite-basin-44053.herokuapp.com', '127.0.0.1', 'localhost']
 
@@ -49,7 +49,6 @@ MIDDLEWARE = [
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
     'whitenoise.middleware.WhiteNoiseMiddleware',
-]
 ]
 
 ROOT_URLCONF = 'covid.urls'
