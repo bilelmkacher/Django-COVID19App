@@ -25,7 +25,7 @@ SECRET_KEY = 't)@gw#l&x49b#%5uz)xmv=7_zs=^h4!25jm^opo+_n6#1$_f^^'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['infinite-basin-44053.herokuapp.com', '127.0.0.1']
+ALLOWED_HOSTS = ['infinite-basin-44053.herokuapp.com', '127.0.0.1', 'localhost']
 
 
 # Application definition
@@ -76,8 +76,12 @@ WSGI_APPLICATION = 'covid.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'd27oa999c0sm1c',
+        'HOST' : 'ec2-3-234-85-177.compute-1.amazonaws.com',
+        'PORT' : 5432,
+        'USER' : 'fwixwcpgbyybzs',
+        'PASSWORD' : '13e2c96ccd6ff8e92e881b15cb210fa8cde76184987d4af61fa74202d6be1993'
     }
 }
 
