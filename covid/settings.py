@@ -25,7 +25,7 @@ SECRET_KEY = 't)@gw#l&x49b#%5uz)xmv=7_zs=^h4!25jm^opo+_n6#1$_f^^'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['infinite-basin-44053.herokuapp.com', '127.0.0.1', 'localhost']
+ALLOWED_HOSTS = ['covidapp-19.herokuapp.com', '127.0.0.1', 'localhost']
 
 
 # Application definition
